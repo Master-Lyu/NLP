@@ -1,0 +1,152 @@
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file vocab.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file merges.txt
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file tokenizer.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file added_tokens.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file special_tokens_map.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file tokenizer_config.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file chat_template.jinja
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2299 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[INFO|2025-06-13 11:32:53] configuration_utils.py:696 >> loading configuration file /root/autodl-tmp/Master_lzz/LLaMA-Factory/models/Qwen/Qwen2.5-7B-Instruct/Qwen/Qwen2.5-7B-Instruct/config.json
+
+[INFO|2025-06-13 11:32:53] configuration_utils.py:770 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file vocab.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file merges.txt
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file tokenizer.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file added_tokens.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file special_tokens_map.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file tokenizer_config.json
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2021 >> loading file chat_template.jinja
+
+[INFO|2025-06-13 11:32:53] tokenization_utils_base.py:2299 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[INFO|2025-06-13 11:32:53] logging.py:143 >> Loading dataset test1.json...
+
+[INFO|2025-06-13 11:32:54] configuration_utils.py:696 >> loading configuration file /root/autodl-tmp/Master_lzz/LLaMA-Factory/models/Qwen/Qwen2.5-7B-Instruct/Qwen/Qwen2.5-7B-Instruct/config.json
+
+[INFO|2025-06-13 11:32:54] configuration_utils.py:770 >> Model config Qwen2Config {
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "qwen2",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.52.4",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 152064
+}
+
+
+[INFO|2025-06-13 11:32:54] logging.py:143 >> KV cache is enabled for faster generation.
+
+[INFO|2025-06-13 11:32:54] modeling_utils.py:1148 >> loading weights file /root/autodl-tmp/Master_lzz/LLaMA-Factory/models/Qwen/Qwen2.5-7B-Instruct/Qwen/Qwen2.5-7B-Instruct/model.safetensors.index.json
+
+[INFO|2025-06-13 11:32:54] modeling_utils.py:2241 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+
+[INFO|2025-06-13 11:32:54] configuration_utils.py:1135 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151645
+}
+
+
+[INFO|2025-06-13 11:32:58] modeling_utils.py:5131 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+
+[INFO|2025-06-13 11:32:58] modeling_utils.py:5139 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at /root/autodl-tmp/Master_lzz/LLaMA-Factory/models/Qwen/Qwen2.5-7B-Instruct/Qwen/Qwen2.5-7B-Instruct.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+
+[INFO|2025-06-13 11:32:58] configuration_utils.py:1088 >> loading configuration file /root/autodl-tmp/Master_lzz/LLaMA-Factory/models/Qwen/Qwen2.5-7B-Instruct/Qwen/Qwen2.5-7B-Instruct/generation_config.json
+
+[INFO|2025-06-13 11:32:58] configuration_utils.py:1135 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "do_sample": true,
+  "eos_token_id": [
+    151645,
+    151643
+  ],
+  "pad_token_id": 151643,
+  "repetition_penalty": 1.05,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+}
+
+
+[INFO|2025-06-13 11:32:58] logging.py:143 >> Using torch SDPA for faster training and inference.
+
+[INFO|2025-06-13 11:32:59] logging.py:143 >> Merged 1 adapter(s).
+
+[INFO|2025-06-13 11:32:59] logging.py:143 >> Loaded adapter(s): saves/Qwen2.5-7B-Instruct/lora/train_2025-06-13-10-27-24
+
+[INFO|2025-06-13 11:32:59] logging.py:143 >> all params: 7,615,616,512
+
+[WARNING|2025-06-13 11:32:59] logging.py:154 >> Batch generation can be very slow. Consider using `scripts/vllm_infer.py` instead.
+
+[INFO|2025-06-13 11:32:59] trainer.py:4327 >> 
+***** Running Prediction *****
+
+[INFO|2025-06-13 11:32:59] trainer.py:4329 >>   Num examples = 2000
+
+[INFO|2025-06-13 11:32:59] trainer.py:4332 >>   Batch size = 2
+
+[INFO|2025-06-13 11:46:52] logging.py:143 >> Saving prediction results to saves/Qwen2.5-7B-Instruct/lora/eval_2025-06-13-10-27-24/generated_predictions.jsonl
+
